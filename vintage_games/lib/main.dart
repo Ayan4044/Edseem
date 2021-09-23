@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:vintage_games/view-games.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,13 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: "Vintage Games",
-        home: Scaffold(
-          appBar: AppBar(
-            title: Text("Bruce’s Retro Games"),
-            backgroundColor: Colors.blue,
-          ),
-          body: _gridView(),
-        ));
+        home: ViewGames());
 
     throw UnimplementedError();
   }
