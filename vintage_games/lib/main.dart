@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:vintage_games/view-games.dart';
 
+import 'game_collection.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -14,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: "Vintage Games",
-        home: ViewGames());
+        home: GameCollection());
 
     throw UnimplementedError();
   }
